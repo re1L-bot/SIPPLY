@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block direct access to hidden files (.env, .git, etc.)
+    RewriteRule (^|/)\.(?!well-known) - [F,L]
+
+    # Block direct access to sensitive file extensions
+    RewriteRule \.(env|sql|log|ini|lock|bak|config|json)$ - [F,L]
+
+    # Route requests to the public/ folder
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Prevent directory listings
+Options -Indexes

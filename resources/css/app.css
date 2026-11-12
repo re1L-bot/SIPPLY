@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.brand-logo {
+    width: 56px;
+    height: 56px;
+    flex: none;
+    border-radius: 50%;
+    background: #fffaf4;
+    object-fit: contain;
+}
+
+.warm-theme {
+    background-color: #fff7ef !important;
+    color: #382116;
+}
+
+.warm-theme [class~="bg-[#244b3b]"],
+.warm-theme [class~="bg-[#244b3b]/95"],
+.warm-theme [class~="bg-[#193c2e]"] {
+    background-color: #57270f !important;
+}
+
+.warm-theme [class~="bg-[#f7f7f1]"],
+.warm-theme [class~="bg-[#f8f5ed]"] {
+    background-color: #fff7ef !important;
+}
+
+.warm-theme [class~="bg-[#f7f8f4]"],
+.warm-theme [class~="bg-[#f1f5ed]"],
+.warm-theme [class~="bg-[#eff3eb]"],
+.warm-theme [class~="bg-[#e8efe3]"],
+.warm-theme [class~="bg-[#edf5e9]"],
+.warm-theme [class~="bg-[#e8eddf]"],
+.warm-theme [class~="bg-[#e4ebdd]"] {
+    background-color: #f9e3d1 !important;
+}
+
+.warm-theme [class~="text-[#20352c]"],
+.warm-theme [class~="text-[#244b3b]"],
+.warm-theme [class~="text-[#244a38]"],
+.warm-theme [class~="text-[#294b39]"] {
+    color: #4b2413 !important;
+}
+
+.warm-theme [class~="text-[#315d47]"],
+.warm-theme [class~="text-[#315b46]"],
+.warm-theme [class~="text-[#557760]"],
+.warm-theme [class~="text-[#496352]"] {
+    color: #8a4b24 !important;
+}
+
+.warm-theme [class~="text-[#52635a]"],
+.warm-theme [class~="text-[#748178]"],
+.warm-theme [class~="text-[#78907b]"] {
+    color: #73543e !important;
+}
+
+.warm-theme [class~="border-[#e7e9df]"],
+.warm-theme [class~="border-[#e8e9e1]"],
+.warm-theme [class~="border-[#dce3d8]"] {
+    border-color: #ead4c1 !important;
+}
+
+.store-navigation {
+    scrollbar-width: none;
+}
+
+.store-navigation::-webkit-scrollbar {
+    display: none;
+}
+
+.store-navigation-link {
+    flex: none;
+    border-radius: 999px;
+    padding: 10px 12px;
+    color: #71432d;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+.store-navigation-link:hover,
+.store-navigation-link.is-active {
+    background: #f7dfca;
+    color: #4b2413;
+}
+
+@media (max-width: 640px) {
+    .store-navigation-link {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+}
