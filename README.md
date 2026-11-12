@@ -186,7 +186,7 @@ Update the following values in your `.env` file:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=sipply
+DB_DATABASE=--------
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -233,13 +233,12 @@ php artisan serve
 
 Open your browser and visit:
 
-```text
+
 http://127.0.0.1:8000
-```
+
 
 You can now access the Sipply e-commerce website.
 
----
 
 Security Features
 
@@ -304,15 +303,24 @@ Add screenshots of your actual application below to showcase its interface and f
 
 Suggested screenshots:
 
-1. Homepage
-2. Product Catalog
-3. Product Details
-4. Shopping Cart
-5. Checkout Page
-6. Customer Dashboard
-7. Administrator Dashboard
-8. Product Management
-9. Order Management
+1. Homepage<img width="1535" height="880" alt="image" src="https://github.com/user-attachments/assets/7f169a8e-2fc6-450f-9388-f2fbee5bcdc7" />
+
+2. Product Catalog<img width="1535" height="877" alt="image" src="https://github.com/user-attachments/assets/d47dfa07-f810-4eee-8459-ea8c78c3dd3b" />
+
+3. Product Details<img width="310" height="457" alt="image" src="https://github.com/user-attachments/assets/942f9240-74de-4a75-ab16-174426c06b0d" />
+
+4. Shopping Cart<img width="1535" height="880" alt="image" src="https://github.com/user-attachments/assets/dac1c646-d718-46b9-a71a-bb9b92d077cf" />
+
+5. Checkout Page<img width="1535" height="877" alt="image" src="https://github.com/user-attachments/assets/88291641-d465-4825-bf27-b6aa008bcc88" />
+
+6. Customer Dashboard<img width="1535" height="877" alt="image" src="https://github.com/user-attachments/assets/b10950ec-9e29-4876-b9d0-4d2bf3458379" />
+
+7. Administrator Dashboard<img width="1532" height="880" alt="image" src="https://github.com/user-attachments/assets/41862f0b-62f7-42ad-bdbc-5b1ac27e3e3a" />
+
+8. Product Management<img width="1535" height="873" alt="image" src="https://github.com/user-attachments/assets/92d566d3-647e-4476-acba-1424114f39f3" />
+
+9. Order Management<img width="1535" height="882" alt="image" src="https://github.com/user-attachments/assets/5fc96f8f-1bf8-49a0-a947-4f9f2611bcc1" />
+
 License
 
 This project is developed for the Sipply milk tea and coffee shop e-commerce platform.
